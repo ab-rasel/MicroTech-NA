@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i';
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
+
+
 
 *{
     margin: 0;
     padding: 0;
+}
+.fontFamily{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     margin:0;
@@ -11,7 +21,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 a,a:hover,a:active,a:visited{
-    text-decoration: none;
+    text-decoration: none !important;
     outline-style: none;
 }
 nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
@@ -19,48 +29,40 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
     list-style: none;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 /*=====================================
 /CommonSec
 ======================================*/
-.CommonContent{
-    font-family: "Open Sans",sans-serif;
-    padding: 98px 0 52px;
+.Common{
+    height: 100%;
+    padding: 80px 0 0;
     width: 100%;
 }
-.CommonContent h2{
-    color: #434343;
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: 0.8;
-    margin: 0;
-    padding-bottom: 28px;
+.Common h2{
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 0 11px;
     text-transform: uppercase;
 }
-.CommonContent span{
-    background: #000 none repeat scroll 0 0;
+.Common span{
+    background: #e085c9 none repeat scroll 0 0;
     display: block;
-    height: 2px;
+    height: 3px;
     margin: 0 auto;
-    width: 30px;
-    position: relative;
+    width: 70px;
 }
-.CommonContent span:after{
-    background: #000 none repeat scroll 0 0;
-    content: "";
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: 4px;
-    width: 100%;
-}
-.CommonContent p{
-    color: #979797;
-    font-size: 13px;
-    letter-spacing: 0;
-    line-height: 25px;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    padding: 24px 0 0;
+.Common p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 12px 0 62px;
 }
 /*========================
 /CommonSec End here
@@ -70,30 +72,22 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
 /*========================
 /Overlay Section start
 ==========================*/
-.overlay{
+
+.Secoverlay{
     position: relative;
     width: 100%;
     height: 100%;
 }
-.overlay::before{
-    position: absolute;
-    content:'';
-    left: 0;
-    top: 0;
-    width: 100%;
+.Secoverlay:before{
+    background: #000 none repeat scroll 0 0;
+    content: "";
     height: 100%;
-    background: rgba(112 , 101 , 93 , .8);
-}
-.WorkOverlay{
-    position: absolute;
     left: 0;
+    opacity: .75;
+    position: absolute;
     top: 0;
-    width: 234px;
-    height: 234px;
-    background: rgba(188 , 160 , 140 , .9);
-    visibility: hidden;
-    opacity: 0;
-    transition: .8s;
+    transition: all 0.8s ease 0s;
+    width: 100%;
 }
 /*========================
 /Overlay End here
@@ -112,16 +106,6 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
 .noPaddingRight{
     padding-right: 0 !important;
 }
-.noMargin {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-.noMarginLeft{
-	margin-left: 0 !important;
-}
-.noMarginRight{
-	margin-right: 0 !important;
-}
 /*========================
 /Margin & Padding Setting End here 
 ==========================*/
@@ -129,18 +113,36 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
 /*==========================
 /Fixed all Element Start here
 =============================*/
-
+.MenuBar{
+    width: 100%;
+    height: 100%;
+}
+.FixedMenu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: #33302D;
+}
 .BackTo{
-    background: #fff none repeat scroll 0 0;
-    bottom: 68px;
+    background: #e085c9 none repeat scroll 0 0;
+    bottom: 35px;
     color: #979797;
+    cursor: pointer;
     font-size: 20px;
-    height: 30px;
-    left: 48%;
-    position: absolute;
+    height: 40px;
+    position: fixed;
+    right: 20px;
     text-align: center;
     width: 50px;
     z-index: 9;
+}
+.BackTo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 2px;
 }
 .Searchfixed{
     position: fixed;
@@ -169,4 +171,3 @@ nav,ul,li,a,h1,h2,h3,h4,h5,h6,table,tr,td,p,span,label{
 /*==========================
 /Fixed all Element end here
 =============================*/
-
