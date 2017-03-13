@@ -1858,7 +1858,7 @@ ul, li {
     opacity: 1; }
   .folioImg:hover .OverBtn {
     visibility: visible;
-    transform: translate(0px, -25px);
+    transform: translate(0px, -24px);
     opacity: 1; }
 
 .imgoverLay {
