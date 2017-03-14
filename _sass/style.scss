@@ -968,7 +968,7 @@ $desktop-a: 48em;
             padding: 192px 0 0;
             position: relative;
             vertical-align: top;
-            width: 33%;
+            width: 31%;
             z-index: 2;
             a {
                 color: #fff;
@@ -1009,7 +1009,6 @@ $desktop-a: 48em;
         }
     }
 }
-
 .DspanFirst {
     height: 176px;
     left: 0;
@@ -1058,8 +1057,10 @@ $desktop-a: 48em;
     background: #0078ae none repeat scroll 0 0;
     border-radius: 4px;
     height: 17px;
-    margin: 0 0 60px;
+    margin: 11px auto 40px;
+    padding: 0 0 9px;
     position: relative;
+    width: 90%;
 }
 
 .DeProgressIndecator {
@@ -1068,7 +1069,7 @@ $desktop-a: 48em;
     display: block;
     height: 17px;
     transition: width 0.4s ease 0s;
-    width: 33.33%;
+    width: 100%;
 }
 
 .DeArrowIndecator {
@@ -1666,7 +1667,7 @@ $desktop-a: 48em;
 
 .SerViceFourMenu {
     background: rgba(255, 255, 254, 0.7) none repeat scroll 0 0;
-    height: 50px;
+    height: 50;
     padding: 12px 0;
     width: 100%;
 }
