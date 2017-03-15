@@ -588,6 +588,16 @@
         height: 100%;
         width: auto;
     }
+    .keyTechnologySec .keytechBtn ul li a {
+        background: #558b2f none repeat scroll 0 0;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 12px 7px;
+        text-decoration: none;
+        transition: all 0.3s ease 0s;
+    }
 }
 @media (min-width: 800px) and (max-width: 1280px) {
     .industrySec{

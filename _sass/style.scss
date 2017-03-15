@@ -148,7 +148,8 @@ $desktop-a: 48em;
     height: 370px;
     padding: 15px 10px 36px 12px;
     position: relative;
-    width: 100%;
+    width: 83%;
+
     &:hover .SerIcon i {
         background: #32cce2;
         border-color: #32cce2;
@@ -550,7 +551,54 @@ $desktop-a: 48em;
         background: rgba(0, 0, 0, 0.1);
     }
 }
-
+.SPBanerSec.SPBanerSecServ{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/web-mobile-app-developer.jpg) no-repeat center (center / cover);
+    &:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+.SPBanerSec.SPBanerSecServ1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/mobile-app-responsive.jpg) no-repeat center (center / cover);
+    &:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+.SPBanerSec.SPBanerSecwork{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/web-app-designing.jpg) no-repeat center (center / cover);
+    &:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
 .SpBanerSingle {
     padding: 111px 0 168px;
     h2 {
@@ -2025,13 +2073,15 @@ $desktop-a: 48em;
 
 .SerIcon i {
     border: 1px solid #32cce2;
-    border-radius: 50%;
-    color: #32cce2;
+    border-radius: 5px;
+    color: #35CDE2;
     font-size: 52px;
     margin-bottom: 13px;
     margin-top: 20px;
     padding: 42px;
     transition: all 500ms ease 0s;
+    transform: rotate(-43deg);
+
 }
 
 .indBtn a {
@@ -2138,12 +2188,17 @@ $desktop-a: 48em;
 }
 
 .conForm .buton {
-    background: #3f84a4 none repeat scroll 0 0;
+    background: #8bc34a none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px #000;
     color: #fff;
+    font-size: 14px;
     font-weight: 700;
-    padding: 8px 29px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    text-shadow: 0 1px 1px #000;
     text-transform: uppercase;
-    transition: all ease 600ms;
+    transition: all 500ms ease 0s;
     &:hover {
         background: #333;
     }
@@ -2181,16 +2236,16 @@ $desktop-a: 48em;
     color: #333;
     float: left;
     font-size: 16px;
-    height: 45px;
+    height: 35px;
     margin-bottom: 12px;
     padding-left: 13px;
     text-transform: capitalize;
-    width: 100%;
+    width: 98%;
     border-radius: 3px;
     -moz-border-radius: 3px;
 }
 .msgboxwork{
-    height: 200px;
+    height: 157px;
     resize: none;
     padding-top: 15px;
     border-radius: 3px;
@@ -2219,12 +2274,12 @@ $desktop-a: 48em;
 
     padding: 200px 0;
     overflow: hidden;
-    background: url(../images/home-banner-microtech.jpg) no-repeat center center / cover;
+    background: url(../images/mobile-app-developer.jpg) no-repeat center center / cover;
 
     &:before{
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, .5);
+        background: rgba(0, 0, 0, .7);
         content: '';
         position: absolute;
         left: 0;
@@ -2406,4 +2461,99 @@ $desktop-a: 48em;
 }
 /*--------------symple title section end------------*/
 /*----------------------------rasel----------------------*/
+/*----------------------------keytechnology start----------------------*/
+.keyTechnologySec{
+    position: relative;
+    padding: 66px 0;
+    .keyTechnologyTitle{
+        position: relative;
+        h1{
+            color: #333;
+            font-size: 56px;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            line-height: 64px;
+            margin-bottom: 57px;
+            text-transform: capitalize;
+            position: relative;
+            &:before{
+                background: #0277bd none repeat scroll 0 0;
+                bottom: -25px;
+                content: "";
+                height: 2px;
+                left: 0;
+                margin: 0 auto;
+                position: absolute;
+                right: 0;
+                width: 167px;
+            }
+        }
+    }
+    .keyTecSingle{
+        width: 100%;
+        height: auto;
+        padding: 30px 0 30px 30px;
+        img{
+            width: 50%;
+            height: auto;
+        }
+        h3{
+            color: #000;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            margin-top: 42px;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+
+    .keytitle2{
+        width: 100%;
+        height: auto;
+        img{
+            width: auto;
+            height: auto;
+        }
+        h1{
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 34px;
+            margin: 30px 0 103px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+    .keytechBtn{
+        position: relative;
+        ul li{
+            display: inline-block;
+            margin: 0 -4px 0 0;
+            padding: 0;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 400;
+                padding: 15px 20px;
+                color: #fff;
+                transition: .3s;
+                background: #558b2f;
+                &:hover{
+                    background: #689f38;
+                }
+
+
+            }
+            .active {
+                background: #e1f5fe none repeat scroll 0 0 !important;
+                color: #0277bd;
+            }
+        }
+    }
+}
+/*----------------------------keytechnology end----------------------*/
 
