@@ -43,10 +43,10 @@ $(document).ready(function () {
                 items: 1
             },
             640: {
-                items: 3
+                items: 1
             },
             1000: {
-                items: 6
+                items: 1
             }
         }
     });

@@ -198,9 +198,55 @@
     .DePSingUpBtn{
         padding-top: 10px;
     }
+    .DesignTab {
+        display: none;
+    }
+    .DesignSliderCon h2 {
+        font-size: 28px;
+    }
+    .DesignHead h2 {
+        font-size: 26px;
+    }
+    .DesingSliderTwoHeading h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+    .DesignHead p {
+        font-size: 16px;
+        text-align: left;
+
+    }
+    .DesignSliderCon p {
+        font-size: 16px;
+        text-align: left;
+    }
+    .DesignHead {
+        padding: 18px 0;
+    }
+    .DesignleftLeftCarosul1::after {
+        display: none;
+    }
+    .DesignArrowRightCarosul1::after {
+        display: none;
+    }
+    .DesignSliderTwo {
+        display: none;
+
+    }
+    .DesignSliderThree {
+        margin-top: 84px;
+    }
+    .DSliderThree .owl-next i {
+        color: #60c1f0;
+        font-size: 30px;
+    }
+    .DSliderThree .owl-prev i {
+        color: #60c1f0;
+        font-size: 30px;
+    }
     /*About_us page Responsive css include End here*/
 }
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 767px) {
     .logo {
         width: 100%;
         text-align: center; }
@@ -343,6 +389,67 @@
         padding: 10px 0 0;
         text-align: left;
     }
+    .absingleBlog img {
+        width: 70%;
+    }
+    .disNone{
+        display: none !important;
+    }
+    .disNone767{
+        display: none !important;
+    }
+    .TabMenu {
+        display: none;
+    }
+    .TabProgress {
+        display: none;
+    }
+    .DesignTab {
+        padding: 17px 0;
+    }
+    .PanelLeft > h2 {
+        font-size: 20px;
+    }
+    .PanelRight p {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .DesignHead h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .DesignHead {
+        padding: 14px 0;
+    }
+    .DesignHead p {
+        font-size: 18px;
+        text-align: left;
+    }
+    .DesignSliderCon h2 {
+        color: #0fa2da;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    .DesignSliderTwo {
+        margin-top: 139px;
+    }
+    .DesignArrowRightCarosul1::after {
+        display: none !important;
+    }
+    .DesignleftLeftCarosul1::after {
+        display: none !important;
+    }
+    .DesignSliderCon h2 {
+        font-size: 31px;
+    }
+    .DeSliderConImage img {
+        height: auto;
+        width: 50%;
+    }
+    .DesignSliderTwo {
+        display: none;
+
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo{
@@ -404,11 +511,11 @@
         padding: 20px 0;
     }
     .inName{
-        width: 51%;
+        width: 49%;
     }
     .emailName{
-        width: 51%;
-        margin-left: 0;
+        width: 49%;
+        margin-left: 10px;
     }
     .FLogo{
         padding: 0;
@@ -416,9 +523,94 @@
     .FLogo p{
         display: block;
     }
+    .SingleCountry h2 {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .disNone{
+        display: none !important;
+    }
+    .TabMenu ul li {
+        display: inline-block;
+        padding: 192px 0 0;
+        position: relative;
+        vertical-align: top;
+        width: 31%;
+        z-index: 2;
+    }
+    .DspanFirst strong {
+        height: 135px;
+        width: 136px;
+    }
+    .DspanFirst em {
+        height: 100px;
+        width: 100px;
+    }
+    .TabMenu ul li.active .DspanFirst em {
+        height: 125px;
+        width: 125px;
+    }
+    .TabMenu ul li.active .DspanFirst strong {
+        height: 160px;
+        width: 160px;
+    }
+    .PanelLeft > h2 {
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .DesignHead {
+        padding: 0px 0;
+    }
+    .DesignHead h2 {
+        font-size: 35px;
+        letter-spacing: 8px;
+    }
+    .DesignTab{
+        padding: 15px 0;
+    }
+    .HomeSlide {
+        padding: 83px 0;
+    }
+    .DesignSliderTwo {
+        margin-top: 132px;
+        border: none;
+    }
+    .DesignArrowRightCarosul1::after {
+        left: 0;
+        top: 0;
+    }
+    .DesignleftLeftCarosul1::after {
+        right: 0px;
+        top: 0;
+        width: 100%;
+    }
+    .DeSliderConImage img {
+        height: 100%;
+        width: auto;
+    }
 }
 @media (min-width: 800px) and (max-width: 1280px) {
     .industrySec{
         height: 100%;
+    }
+    .logo a {
+        color: #fff;
+        display: block;
+        font-family: Kaushan Script,cursive;
+        font-size: 27px;
+        padding-top: 7px;
+        transition: all 600ms ease 0s;
+    }
+    .logo P {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .inName {
+        width: 47%;
+    }
+    .DesignSliderTwo{
+        margin-top: 200px;
+        border: none;
     }
 }
