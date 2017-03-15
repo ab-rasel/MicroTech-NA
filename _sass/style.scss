@@ -1,5 +1,7 @@
 @import '../bower_components/susy/sass/susy';
 @import '../bower_components/normalize-scss/_normalize.scss';
+@import './preset.scss';
+@import './main.scss';
 
 //@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap'; // Boostrap
 // Resets
@@ -550,14 +552,63 @@ $desktop-a: 48em;
 }
 
 .SpBanerSingle {
-    padding: 184px 0 168px;
+    padding: 111px 0 168px;
     h2 {
-        font-size: 75px;
         color: #fff;
-        font-weight: 700;
-        line-height: 1.2;
-        text-transform: uppercase;
+        font-size: 56px;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        line-height: 64px;
+        margin-bottom: 14px;
+        text-transform: capitalize;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+
     }
+    p{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 0.03em;
+        line-height: 1.2em;
+        margin-bottom: 40px;
+        opacity: 0.95;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    }
+    a{
+        background: #8bc34a;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        margin-right: 20px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        transition: all 500ms ease 0s;
+        box-shadow: 0 1px 2px #000;
+        text-shadow: 0 1px 1px #000;
+        &:hover{
+            background: #9ccc65;
+        }
+    }
+}
+.SpBanerSingle.SpBanerSingle1 > h1 {
+    color: #fff;
+    font-family: raleway;
+    font-size: 91px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 13px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+.SpBanerSingle.SpBanerSingle1 > p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+    opacity: 0.95;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+
 }
 
 .SpItemSec {
@@ -1800,7 +1851,7 @@ $desktop-a: 48em;
     .folioImg{
         &:hover{
             .fOverText{
-                top: 50px; 
+                top: 100px; 
             }
             .OverBtn {
                 /*                top: 50px;*/
@@ -2190,6 +2241,7 @@ $desktop-a: 48em;
             letter-spacing: 1.5px;
             font-weight: 300;
             margin-bottom: 14px;
+            text-shadow: 0 1px 2px #000;
         }
         p{
 
@@ -2208,13 +2260,15 @@ $desktop-a: 48em;
             font-weight: 700;
             text-transform: uppercase;
             color: #fff;
-            border: 2px solid #009DE0;
+            border: 2px solid #8bc34a;
             padding: 10px 30px;
             border-radius: 4px;
             margin-right: 20px;
             transition: all ease 500ms;
+            box-shadow: 0 1px 2px #000;
+            text-shadow: 0 1px 1px #000;
             &:first-child{
-                background: #009DE0;
+                background: #8bc34a;
                 &:hover{
                     background: transparent;
                 }
