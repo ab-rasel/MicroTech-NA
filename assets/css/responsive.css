@@ -478,6 +478,8 @@
     }
     .serviceContent{
         margin-top: 20px;
+        width: 100%;
+        height: 419px;
     }
     .serviceSec{
         padding: 40px 0;
