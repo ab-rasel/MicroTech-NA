@@ -9,7 +9,7 @@ title: Work With Us
                 <div class="SpBanerSingle">
                     <h2>Work With Us </h2>
                     <p>Test and personalize across your customers' journey with <br>Optimizely, the Experimentation Platform.</p>
-                   
+
                 </div>
             </div>
         </div>
@@ -20,26 +20,31 @@ title: Work With Us
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <form method="post" action="#" class="conForm">
+                <form id="formaction" method="POST" class="conForm">
                     <div class="input-group">
                         <label for="exampleInputEmail1">Full Name*</label>
-                        <input type="text" class="inNamework" placeholder="Your Full Name" required="required">
+                        <input type="text" name="Name" class="inNamework" placeholder="Your Full Name" required="required">
                     </div>
                     <div class="input-group">
                         <label for="exampleInputEmail1">Email*</label>
-                        <input type="email" class="inNamework" placeholder="Email" required="required">
+                        <input type="email" name="Email" class="inNamework" placeholder="Email" required="required">
                     </div>
 
                     <div class="input-group">
                         <label for="exampleInputPassword1">Company Name</label>
-                        <input type="text"  class="inNamework" placeholder="Company Name">
+                        <input type="text" name="CompanyName" class="inNamework" placeholder="Company Name">
                     </div>
                     <div class="input-group">
                         <label for="exampleInputPassword1">Your Message</label>
-                        <textarea name="message" class="inNamework msgboxwork" placeholder="message"></textarea>
+                        <textarea name="Message" class="inNamework msgboxwork" placeholder="message"></textarea>
+                        <input type="text" name="_gotcha" style="display:none" />
                     </div>
-                    <button type="submit" class="btn btn-default buton">Submit</button>
+                    <button type="submit" name="submit" class="btn btn-default buton">Submit</button>
                 </form>
+                <script>
+                    var contactform =  document.getElementById('formaction');
+                    contactform.setAttribute('action', '//formspree.io/' + 'junayed' + '@' + 'microtechna' + '.' + 'com');
+                </script>
             </div>
             <div class="col-lg-6">
                 <div class="contactInfo">
@@ -47,8 +52,11 @@ title: Work With Us
                         <i class="fa fa-map-marker"></i>
                     </div>
                     <div class="contactText">
-                        <h3>Nikunja 2 </h3>
-                        <p>Dhaka 1229 Bangladesh</p>
+                        <h3>Our new location:</h3>
+                        <h4>MicroTech NA Inc.</h4>
+                        <p>167-17 Hillside Ave<br>Jamaica, NY 11432</p><br>
+                        <h5>Old address: </h5>
+                        <p>316 west 39th street, Suite 3E<br>New York, NY 10018</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -58,7 +66,7 @@ title: Work With Us
                     </div>
                     <div class="contactText">
                         <h3>Give us call</h3>
-                        <p>Phone: +8801910028951</p>
+                        <p>Phone: +‎1-888-612-7778</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -68,7 +76,7 @@ title: Work With Us
                     </div>
                     <div class="contactText">
                         <h3>Send us message</h3>
-                        <p>Email: junayed@microtechna.com</p>
+                        <p>Email: Info@microtechna.com</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
