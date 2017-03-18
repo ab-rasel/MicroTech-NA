@@ -1,6 +1,7 @@
 @import '../bower_components/susy/sass/susy';
 @import '../bower_components/normalize-scss/_normalize.scss';
 @import './preset.scss';
+@import './feature_team.scss';
 @import './main.scss';
 
 //@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap'; // Boostrap
@@ -2081,11 +2082,18 @@ $desktop-a: 48em;
     padding: 100px 0 !important;
 }
 .folioimgContentSagor1{
-    padding: 66px 0 !important;
+    padding: 50px 0 !important;
+    p{
+        font-size: 20px;
+    }
+}
+.folioimgContent.folioimgContentSagor1 > p {
+  font-size: 41px;
+  line-height: 68.6px;
 }
 .folioimgContent {
     background: #7fa588 none repeat scroll 0 0;
-    padding: 214.5px 0;
+    padding: 73.1px 0 !important;
     p {
         color: #fff;
         font-size: 48px;
