@@ -607,6 +607,24 @@
         text-decoration: none;
         transition: all 0.3s ease 0s;
     }
+    .folioImg:hover .OverBtn {
+        opacity: 1;
+        transform: translate(0px, 93px);
+        visibility: visible;
+    }
+    .fOverText {
+        top: 181px;
+    }
+    .fOverText.fOverText22 h2 {
+        font-size: 34px;
+    }
+    .fOverText > h2 {
+        font-size: 20px;
+    }
+    .fOverText.fOverText22 {
+        top: 166px;
+
+    }
 }
 @media (min-width: 800px) and (max-width: 1280px) {
     .industrySec{
@@ -632,6 +650,7 @@
         margin-top: 200px;
         border: none;
     }
+
 }
 @media (min-width: 1024px) and (max-width: 1280px){
     .DiscusBtnCon h2 {
