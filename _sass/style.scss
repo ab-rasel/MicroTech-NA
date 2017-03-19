@@ -1,6 +1,7 @@
 @import '../bower_components/susy/sass/susy';
 @import '../bower_components/normalize-scss/_normalize.scss';
 @import './preset.scss';
+@import './feature_team.scss';
 @import './main.scss';
 
 //@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap'; // Boostrap
@@ -310,9 +311,9 @@ $desktop-a: 48em;
     color: #333;
     display: block;
     font-size: 14px;
-    height: 50px;
-    margin-bottom: 20px;
-    padding: 15px;
+    height: 30px;
+    margin-bottom: 14px;
+    padding: 9px;
     text-transform: capitalize;
     width: 100%;
 }
@@ -320,23 +321,23 @@ $desktop-a: 48em;
 .emailName {
     float: left;
     height: auto;
-    margin-left: 44px;
+    margin-left: 31px;
     width: 48%;
 }
 
 .msg {
-    width: 100%;
-    position: relative;
-    height: 200px;
-    color: #333;
-    padding: 15px;
-    resize: none;
-    font-size: 14px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
     border: 1px solid #ddd;
-    box-shadow: 0 0 0 0;
     border-radius: 0;
+    box-shadow: 0 0 0 0;
+    color: #333;
+    font-size: 14px;
+    height: 90px;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: relative;
+    resize: none;
+    text-transform: capitalize;
+    width: 100%;
 }
 
 .footer {
@@ -551,51 +552,34 @@ $desktop-a: 48em;
         background: rgba(0, 0, 0, 0.1);
     }
 }
+.SPBanerSec.SPBanerSecabout {
+
+    background: url(../images/micortech-dhaka-website-design.jpg) no-repeat center (center / cover);
+    &:before {
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
 .SPBanerSec.SPBanerSecServ{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+
     background: url(../images/web-mobile-app-developer.jpg) no-repeat center (center / cover);
     &:before {
-        position: absolute;
-        content: '';
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
+
         background: rgba(0, 0, 0, 0.7);
     }
 }
 .SPBanerSec.SPBanerSecServ1{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+
     background: url(../images/mobile-app-responsive.jpg) no-repeat center (center / cover);
     &:before {
-        position: absolute;
-        content: '';
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
+
         background: rgba(0, 0, 0, 0.7);
     }
 }
 .SPBanerSec.SPBanerSecwork{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
+
     background: url(../images/web-app-designing.jpg) no-repeat center (center / cover);
     &:before {
-        position: absolute;
-        content: '';
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
+
         background: rgba(0, 0, 0, 0.7);
     }
 }
@@ -694,10 +678,10 @@ $desktop-a: 48em;
 }
 
 .SingleSpImage {
-    width: 100%;
-    height: 186px;
+    height: auto;
     overflow: hidden;
     position: relative;
+    width: 46%;
     &:hover {
         .SPSingleSpOver {
             visibility: visible;
@@ -709,7 +693,7 @@ $desktop-a: 48em;
     }
     img {
         width: 100%;
-        height: 100%;
+        height: auto;
         position: relative;
         overflow: hidden;
         transform: scale(1);
@@ -1014,7 +998,7 @@ $desktop-a: 48em;
     &:after {
         position: absolute;
         content: '';
-        left: 64px;
+        left: 0px;
         top: 0;
         width: 100%;
         height: 100%;
@@ -1030,7 +1014,7 @@ $desktop-a: 48em;
     &:after {
         position: absolute;
         content: '';
-        right: 64px;
+        right: 0px;
         top: 0;
         width: 100%;
         height: 100%;
@@ -1761,7 +1745,20 @@ $desktop-a: 48em;
     width: 100%;
     height: 710px;
     position: relative;
-    background: url(../images/S4banner.jpg) no-repeat center (center / cover);
+    background: url(../images/bangla-typing.png) no-repeat center (center / cover);
+}
+.ServiceFourMenu{
+    font-family: Raleway, sans-serif;
+    width: 100%;
+    height: 710px;
+    position: relative;
+    background: url(../images/bangla-typing.png) no-repeat center (center / cover);
+}
+.ServiceFourMenu.workserv1{
+    background: url(../images/bangla-typing.png) no-repeat center (center / cover);
+}
+.ServiceFourMenu.workwebsitesystem{
+    background: url(../images/website-development-webapp-dev3.png) no-repeat center (center / cover);
 }
 
 .SerViceFourMenu {
@@ -1809,13 +1806,20 @@ $desktop-a: 48em;
     height: 100%;
     position: relative;
     &:before {
-        background: transparent url(../images/cheeryright.jpg) no-repeat scroll center (center / cover);
+        background: transparent url(../images/bang-typing-software-bs3.png) no-repeat scroll center (center / cover);
         content: "";
         height: 100%;
         position: absolute;
         right: 0;
         top: 0;
         width: 50%;
+    }
+}
+.ChreeSec.workwebsec{
+
+    &:before {
+        background: transparent url(../images/website-development-webapp-dev1.png) no-repeat scroll center (center / cover);
+
     }
 }
 
@@ -1973,6 +1977,28 @@ $desktop-a: 48em;
     text-align: center;
     transition: all 0.7s ease 0s;
     width: 100%;
+    top: 165px;
+    opacity: 0;
+    visibility: hidden;
+    h2 {
+        color: #333;
+        font-size: 4.65em;
+        font-weight: 700;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+}
+.fOverText.fOverText22 {
+    bottom: 0;
+    font-family: Raleway, sans-serif;
+    height: auto;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.7s ease 0s;
+    width: 100%;
     top: 200px;
     opacity: 0;
     visibility: hidden;
@@ -1984,10 +2010,11 @@ $desktop-a: 48em;
         text-transform: uppercase;
     }
 }
-
+.OverBtn.workBhasha{
+    bottom: 150px;
+}
 .OverBtn {
-    bottom: 59px;
-    bottom: 220px;
+    bottom: 214px;
     left: 0;
     margin: 0 auto;
     position: absolute;
@@ -2055,11 +2082,18 @@ $desktop-a: 48em;
     padding: 100px 0 !important;
 }
 .folioimgContentSagor1{
-    padding: 66px 0 !important;
+    padding: 50px 0 !important;
+    p{
+        font-size: 20px;
+    }
+}
+.folioimgContent.folioimgContentSagor1 > p {
+    font-size: 41px;
+    line-height: 68.6px;
 }
 .folioimgContent {
     background: #7fa588 none repeat scroll 0 0;
-    padding: 214.5px 0;
+    padding: 73.1px 0 !important;
     p {
         color: #fff;
         font-size: 48px;
@@ -2085,17 +2119,18 @@ $desktop-a: 48em;
 }
 
 .indBtn a {
-    background: #fff none repeat scroll 0 0;
+    background: #689F38 none repeat scroll 0 0;
     border-radius: 44px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
+    color: #fff;
     margin-top: -24px;
     padding: 14px 54px;
     text-transform: uppercase;
     transition: all 600ms ease 0s;
     &:hover {
-        background: #abda2e;
+        background: #558b2f;
     }
 }
 
@@ -2554,6 +2589,9 @@ $desktop-a: 48em;
             }
         }
     }
+}
+.keyTecSingle.keyTecSingle1 > h3 {
+  margin: 11px 0;
 }
 /*----------------------------keytechnology end----------------------*/
 
