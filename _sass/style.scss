@@ -295,7 +295,6 @@ $desktop-a: 48em;
     font-size: 16px;
     height: 44px;
     margin-bottom: 12px;
-    text-transform: capitalize;
     width: 48%;
     &:focus {
         border-color: #827717;
@@ -313,8 +312,7 @@ $desktop-a: 48em;
     font-size: 14px;
     height: 30px;
     margin-bottom: 14px;
-    padding: 9px;
-    text-transform: capitalize;
+    padding: 6px;
     width: 100%;
 }
 
@@ -2117,7 +2115,6 @@ $desktop-a: 48em;
     margin-top: 20px;
     padding: 42px;
     transition: all 500ms ease 0s;
-    transform: rotate(-43deg);
 
 }
 
@@ -2137,7 +2134,7 @@ $desktop-a: 48em;
     }
 }
 
-.conBtn a {
+.conBtn .btnconta{
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
