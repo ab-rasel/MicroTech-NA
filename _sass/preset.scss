@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+@import '../bower_components/susy/sass/susy';
+@import '../bower_components/normalize-scss/_normalize.scss';
+
+//@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap'; // Boostrap
+// Resets
+//@import '_custom-bootstrap.scss';
+
+/*  ------------------------------------------
+    Susy settings
+    ------------------------------------------  */
+$susy: (
+flow: ltr, // ltr | rtl
+output: float, // float | isolate
+math: fluid, // fluid | static (requires column-width)
+column-width: false, // false | value
+container: 1366px, // length or % | auto
+container-position: center, // left | center | right | <length> [*2] (grid padding)
+last-flow: to, //from | to
+columns: 12,
+gutters: 1/4,
+gutter-position: after, // before | after | split | inside | inside-static (requires column-width)
+global-box-sizing: border-box, // content-box | border-box (affects inside/inside-static)
+debug: (
+image: hide, //hide | show
+color: rgba(#66f, .25),
+output: background, // background | overlay
+toggle: top left, //top left  | top right
+),
+use-custom: (
+background-image: true, // look for background-image mixin
+background-options: false, // look for background-size, -origin and -clip and other compass/bourbon mixins
+box-sizing: true, // look for custom bix sizing mixin
+clearfix: false, // true = look for internal clearfix before using micro clearfix
+rem: true, // look for rem mixin
+)
+);
+
+$gallery_layout: layout( 12 .125 fluid float after);
+
+$nav_layout: layout( 12 0 fluid float inside);
+
+$golden_layout: layout( (1 1.618 2.618) .1 fluid float split);
+/*  ------------------------------------------
+    It makes your life easy!
+    ------------------------------------------  */
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+// nav {
+//   margin: 0px 0;
+//   text-align: center;
+//   li {
+//     background: #eee;
+//   }
+//   a {
+//     display: block;
+//     &:hover {
+//       background: #ddd;
+//     }
+//   }
+// }
+/*  ------------------------------------------
+    Colour codes! Indigo - Pinks
+    ------------------------------------------  */
+$color-primary-100: #C5CAE9;
+$color-primary-500: #3F51B5;
+$color-primary-700: #303F9F;
+$color-secondary-200: #F48FB1;
+$color-secondary-100: #F8BBD0;
+$color-secondary-400: #EC407A;
+
+$color-gray-900-darker: #212121;
+$color-gray-700-dark: #616161;
+$color-gray-500: #9E9E9E;
+$color-gray-300-light: #E0E0E0;
+$color-gray-100-lighter: #F5F5F5;
+$color-gray-50-lightest: #FAFAFA;
+
+//bootstrap colors
+// @gray-darker:  lighten(#000, 13.5%); // #222
+// @gray-dark:    lighten(#000, 20%);   // #333
+// @gray:         lighten(#000, 33.5%); // #555
+// @gray-light:   lighten(#000, 46.7%); // #777
+// @gray-lighter: lighten(#000, 93.5%); // #eee
+
+// @brand-primary: darken(#428bca, 6.5%); // #337ab7
+// @brand-success: #5cb85c;
+// @brand-info:    #5bc0de;
+// @brand-warning: #f0ad4e;
+// @brand-danger:  #d9534f;
+
+/*  ------------------------------------------
+    Breakpoints
+    ------------------------------------------  */
+// iPhone 6s plus 414px=25.9em         
+// .. Tablet Layout Pattern (20em=320px) (old iPhone)26em=414px 48em=768px(iPad)  
+$tablet-a: 27em;
+$tablet-b: 48em;
+// .. Desktop Layout Pattern
+$desktop-a: 48em;
+// .. Tablet Layout Pattern 20em=320px (old iPhone) 48em=768px(iPad)  
+/* 
+  @include susy-media($tablet-a $tablet-b) {
+  @include susy-media(min-width $desktop-a) { 
+*/
+
+/*  ------------------------------------------
+    Makes life easy code cont.
+    ------------------------------------------  */
+.debug {
+    border: 1px dashed red;
+    //background-color: #EFE; //OR
+}
+.wrap {
+    @include container;
+}
+// wrap and content may together work
+.contents {
+    padding: 0 gutter();
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font-family {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    outline-style: none;
+    &:hover, &:active, &:visited {
+        text-decoration: none !important;
+        outline-style: none;
+    }
+}
+
+nav, ul, li, a, h1, h2, h3, h4, h5, h6, table, tr, td, p, span, label {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.commonTitle h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333333;
+    position: relative;
+    margin-bottom: 20px;
+    &:after {
+        position: absolute;
+        left: 0;
+        top: 35px;
+        width: 60px;
+        height: 2px;
+        color: #32CCE2;
+        content: '';
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        background: #32CCE2;
+    }
+}
+
+/*========================
+/Margin & Padding Setting Start here
+==========================*/
+
+.noPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.noPaddingLeft {
+    padding-left: 0 !important;
+}
+
+.noPaddingRight {
+    padding-right: 0 !important;
+}
+
+.noMargin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.noMarginLeft {
+    margin-left: 0 !important;
+}
+
+.noMarginRight {
+    margin-right: 0 !important;
+}
+
+/*========================
+/Margin & Padding Setting End here 
+==========================*/
+/*==========================
+/Fixed all Element Start here
+=============================*/
+
+.BackTo {
+    background: #333333 none repeat scroll 0 0;
+    bottom: 50px;
+    color: #979797;
+    font-size: 20px;
+    height: 50px;
+    right: 30px;
+    position: fixed;
+    text-align: center;
+    width: 50px;
+    z-index: 9;
+    i {
+        font-weight: 700;
+        font-size: 40px;
+        color: #fff;
+    }
+}
+
+.Searchfixed {
+    position: fixed;
+    right: -150px;
+    top: 39px;
+    z-index: 1;
+    transition: .8s;
+}
+
+.FixedSearch {
+    background: #b5967f none repeat scroll 0 0;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 148px;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 0 5px 6px;
+}
+.Mfix {
+    height: 100px;
+}
+.fixedHeader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    background: #000;
+    transition: 1s;
+    opacity: .9;
+    .logo{
+        a{
+            font-size: 32px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .socail{
+        padding: 14px 0 !important;
+    }
+    .Menu ul li{
+        padding: 20px 0;
+        &:hover{
+            .Submenu {
+                top: 60px;
+            }
+        }
+    }
+}
+/*==========================
+/Fixed all Element end here
+=============================*/
