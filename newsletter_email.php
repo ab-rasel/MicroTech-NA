@@ -4,7 +4,7 @@ $username = "newsletter01";
 $password = "5ca~#D8*6%r}";
 $dbname = "newsletter-signups";
 
-$email= $_POST['email'];
+$email= $_POST["newsletter"];
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
