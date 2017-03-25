@@ -1309,7 +1309,6 @@ ul, li {
   font-size: 16px;
   height: 44px;
   margin-bottom: 12px;
-  text-transform: capitalize;
   width: 48%; }
   .inName:focus {
     border-color: #827717; }
@@ -1324,8 +1323,7 @@ ul, li {
   font-size: 14px;
   height: 30px;
   margin-bottom: 14px;
-  padding: 9px;
-  text-transform: capitalize;
+  padding: 6px;
   width: 100%; }
 
 .emailName {
@@ -2841,8 +2839,7 @@ ul, li {
   margin-bottom: 13px;
   margin-top: 20px;
   padding: 42px;
-  transition: all 500ms ease 0s;
-  transform: rotate(-43deg); }
+  transition: all 500ms ease 0s; }
 
 .indBtn a {
   background: #689F38 none repeat scroll 0 0;
@@ -2858,7 +2855,7 @@ ul, li {
   .indBtn a:hover {
     background: #558b2f; }
 
-.conBtn a {
+.conBtn .btnconta {
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -2867,7 +2864,7 @@ ul, li {
   color: #fff;
   border-radius: 4px;
   transition: all ease 500ms; }
-  .conBtn a:hover {
+  .conBtn .btnconta:hover {
     background: #333; }
 
 .footerwedget p {
