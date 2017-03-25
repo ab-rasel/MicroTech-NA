@@ -1,7 +1,5 @@
 <?php
-//old scripts
-//print_r($_POST);
-$to = 'APMS<apmsglobal@gmail.com>';
+$to = 'APMS test<bdjunayed@gmail.com>';
 
 $subject = 'Feedback from MicorTechNA: ' . $_POST["name"];
 
