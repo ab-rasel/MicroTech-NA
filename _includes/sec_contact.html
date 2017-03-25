@@ -51,7 +51,7 @@
         </div>
         <div class="row">
             <div class="col-lg-7">
-                <form action="./sendmail.php" method="POST">
+                <form action="sendmail.php" method="POST">
                     <div class="form">
                         <div class="infoName">
                             <div class="inName">
@@ -66,10 +66,10 @@
                             <input type="text" name="subject" class="inputName" placeholder="subject">
                         </div>
                         <div class="msgBox">
-                            <textarea placeholder="message" class="msg"></textarea>
+                            <textarea placeholder="message" name="message" class="msg"></textarea>
                         </div>
                         <div class="conBtn">
-                            <button type="submit" name="submit" value="send"><a href="" name='submit'>send</a></button>
+                            <button type="submit" name="submit" class="btnconta" value="send">send</button>
                         </div>
                     </div>
                 </form>
