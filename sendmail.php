@@ -20,11 +20,12 @@ $headers .= 'Reply-To: <'.$con_email.'>' . "\r\n";
 //$headers .= 'Cc: bdjunayed@hotmail.com' . "\r\n";
 //$headers .= 'Bcc: bdjunayed@yahoo.com' . "\r\n";
 
-$mail_sent = mail($to, $con_subject, $message, $headers);
+$mail_sent = @mail($to, $con_subject, $message, $headers);
 
 
-echo $mail_sent ? "Your message has been sent. <a href='index.html'>click here</a>" : header('location: workwith.html') ;
-exit(0);
+echo $mail_sent ? include "success.php" : include "failed.php" ;
+
+header('location: conatct.php');
 ?>
 
 <?php
