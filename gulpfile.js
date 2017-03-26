@@ -21,8 +21,8 @@ var messages = {
 gulp.task('jekyll-build', function (done) {
     console.log('jekyll-build =>');
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( 'jekyll' , ['build'], {stdio: 'inherit'}) //Mac pc
-    //return cp.spawn( 'C:\\tools\\ruby23\\bin\\jekyll.bat' , ['build'], {stdio: 'inherit'}) //Windows
+    //return cp.spawn( 'jekyll' , ['build'], {stdio: 'inherit'}) //Mac pc
+    return cp.spawn( 'C:\\tools\\ruby23\\bin\\jekyll.bat' , ['build'], {stdio: 'inherit'}) //Windows
         .on('error', (error) => gutil.log(gutil.colors.red(error.message))) 
         .on('close', done);
 });
