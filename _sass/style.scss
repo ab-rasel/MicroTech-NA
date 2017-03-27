@@ -319,7 +319,7 @@ $desktop-a: 48em;
 .emailName {
     float: left;
     height: auto;
-    margin-left: 31px;
+    margin-left: 24px;
     width: 48%;
 }
 
@@ -1499,7 +1499,7 @@ $desktop-a: 48em;
 }
 
 .DesignUpBtn {
-    background: #0fa2da none repeat scroll 0 0;
+    background: #88ba00  none repeat scroll 0 0;
     border-top-right-radius: 9px;
     border-bottom-right-radius: 9px;
     color: #fff;
@@ -1507,14 +1507,15 @@ $desktop-a: 48em;
     font-size: 17px;
     font-weight: 700;
     overflow: hidden;
-    padding: 12px 30px 11px;
+    padding: 9px 30px 14px;
     position: absolute;
     right: 0;
     text-transform: uppercase;
-    top: 0;
+    top: -2px;
     transition: all ease 600ms;
+    cursor: pointer;
     &:hover {
-        background: #88ba00;
+        background: #0fa2da ;
         color: #fff;
     }
     i {
