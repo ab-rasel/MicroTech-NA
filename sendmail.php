@@ -1,7 +1,5 @@
 <?php
-//old scripts
-//print_r($_POST);
-$to = 'APMS<apmsglobal@gmail.com>';
+$to = 'APMS test<bdjunayed@gmail.com>';
 
 $subject = 'Feedback from MicorTechNA: ' . $_POST["name"];
 
@@ -16,6 +14,7 @@ $message = "Feedback from MicroTech:\n\n"
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
 // <<<<<<< HEAD
 // $headers .= 'From: <'.$con_email.'>' . "\r\n";
 // $headers .= 'Reply-To: <'.$con_email.'>' . "\r\n";
@@ -39,6 +38,7 @@ else{
 }
 //echo $mail_sent ? include "index.html" : include "work.html" ;
 exit(0);
+
 
 
 ?>
