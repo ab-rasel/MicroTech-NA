@@ -570,6 +570,9 @@
     .DesignHead {
         padding: 20px 0;
     }
+    .DesignSlider{
+        height: 500px;
+    }
     .DesignHead h2 {
         font-size: 35px;
         letter-spacing: 8px;
@@ -577,9 +580,22 @@
     }
     .DesignHead  p{
         text-align: left;
+        line-height: 21px;
+        font-size: 16px;
     }
+
     .DesignTab{
         padding: 15px 0;
+    }
+    .DesignSliderCon h2 {
+          font-size: 26px;
+    }
+    .DesignSliderCon p {
+          color: #5a6063;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 1.4;
+          padding-top: 24px;
     }
     .HomeSlide {
         padding: 83px 0;
