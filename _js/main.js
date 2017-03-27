@@ -32,7 +32,7 @@ $(document).ready(function () {
         nav: false,
         dots: false,
         pagination: true,
-        touchDrag: false,
+        touchDrag: true,
         responsiveClass: true,
         navigationText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
         navigation: true,
