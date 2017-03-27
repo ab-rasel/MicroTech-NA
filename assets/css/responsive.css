@@ -1,0 +1,679 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo {
+        width: 100%;
+        text-align: center; }
+    .logo a {
+        font-size: 14px; }
+    .logo P {
+        display: none; }
+    .MenuSec {
+        height: auto; }
+    .socail {
+        padding: 10px 0; }
+    .MobileMenu {
+        cursor: pointer !important;
+        display: block;
+        height: 26px;
+        line-height: 0.2;
+        width: 30px;
+        position: absolute;
+        top: 13px;
+        right: 17px;
+        z-index: 9999; }
+    .MobileMenu span {
+        background: #fff;
+        display: inline-block;
+        height: 2px;
+        width: 100%; }
+    .Menu {
+        width: 100%; }
+    .Menu ul {
+        background: #000;
+        display: none;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 51px;
+        width: 100%;
+        z-index: 999;
+        opacity: .7; }
+    .Menu ul li {
+        cursor: pointer;
+        display: block;
+        padding: 14px 0; }
+    .Menu ul li a {
+        display: block; }
+    .Menu ul li:hover .Submenu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 150px;
+        visibility: visible;
+        opacity: 1; }
+    .mainSliderSec {
+        margin-top: 78px; }
+    .fixedHeader .logo a {
+        font-size: 16px;
+    }
+    .HomeSlide{
+        padding: 100px 0;
+    }
+    .HomeSlide .slideContent h1{
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+    .HomeSlide .slideContent p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .serviceSec{
+        padding: 60px 0;
+    }
+    .serviceContent{
+        margin-top: 20px;
+    }
+    .industryTitle h2{
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .industryTitle p{
+        font-size: 14px;
+    }
+    .indItem{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .industrySec{
+        height: 100%;
+    }
+    .indMainItem{
+        padding-top: 12px;
+    }
+    .ourWork .mainWork{
+        padding: 0;
+    }
+    .col-lg-9.paddingLeft20 {
+        padding-left: 22px;
+    }
+    .ourWork{
+        padding-bottom: 10px;
+    }
+    .DiscusBtnCon h2{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .DiscusBtnCon {
+        border-radius: 4px;
+        padding: 30px 12px 64px;
+    }
+    .DiscusBtnCon .DiscusBTn {
+        display: block;
+        float: left;
+        font-size: 13px;
+        height: 47px;
+        padding: 11px 16px;
+        width: 178px;
+    }
+    .contactSec{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .commonTitle h2{
+        font-size: 16px;
+    }
+    .contactInfo {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .inName{
+        width: 100%;
+    }
+    .emailName {
+        margin-left: 0;
+        width: 100%;
+    }
+    .FLogo a{
+        font-size: 26px;
+    }
+    .footerwedget{
+        padding-bottom: 10px;
+    }
+    .footerIcon.text-right {
+        text-align: left;
+    }
+    .FSerMenu a{
+        display: inline-block;
+    }
+    /*About_us page Responsive css include Start here*/
+    .SpBanerSingle h2{
+        font-size: 45px;
+    }
+    .DesignHead h2{
+        font-size: 29px;
+    }
+    .aboutHead h3{
+        font-size: 16px;
+    }
+    .aboutHead {
+        padding: 36px 0;
+    }
+    .experienceMic h2{
+        font-size: 20px;
+    }
+    .experienceMic p{
+        font-size: 13px;
+    }
+    .Apadding35 {
+        padding: 15px 0;
+    }
+    .absingleBlog h2{
+        font-size: 28px;
+    }
+    .absingleBlog h2 span{
+        font-size: 33px;
+    }
+    .absingleBlog p{
+        padding: 0;
+        font-size: 13px;
+    }
+    .abBlogSec{
+        padding-bottom: 40px;
+    }
+    .countryHead h2{
+        font-size: 24px;
+    }
+    .SingleCountry h2{
+        font-size: 12px;
+    }
+    .countryHead2{
+        padding-top: 20px;
+    }
+    .AbCountrySec{
+        padding-bottom: 15px;
+    }
+    .DePSingUpBtn h2{
+        font-size: 17px;
+    }
+    .DePSingUpBtn{
+        padding-top: 10px;
+    }
+    .DesignTab {
+        display: none;
+    }
+    .DesignSliderCon h2 {
+        font-size: 28px;
+    }
+    .DesignHead h2 {
+        font-size: 26px;
+    }
+    .DesingSliderTwoHeading h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+    .DesignHead p {
+        font-size: 16px;
+        text-align: left;
+
+    }
+    .DesignSliderCon p {
+        font-size: 16px;
+        text-align: left;
+    }
+    .DesignHead {
+        padding: 18px 0;
+    }
+    .DesignleftLeftCarosul1::after {
+        display: none;
+    }
+    .DesignArrowRightCarosul1::after {
+        display: none;
+    }
+    .DesignSliderTwo {
+        display: none;
+
+    }
+    .DesignSliderThree {
+        margin-top: 84px;
+    }
+    .DSliderThree .owl-next i {
+        color: #60c1f0;
+        font-size: 30px;
+    }
+    .DSliderThree .owl-prev i {
+        color: #60c1f0;
+        font-size: 30px;
+    }
+    /*About_us page Responsive css include End here*/
+}
+@media (min-width: 360px) and (max-width: 767px) {
+    .logo {
+        width: 100%;
+        text-align: center; }
+    .logo a {
+        font-size: 14px; }
+    .logo P {
+        display: none; }
+    .MenuSec {
+        height: auto; }
+    .socail {
+        padding: 10px 0; }
+    .MobileMenu {
+        cursor: pointer !important;
+        display: block;
+        height: 26px;
+        line-height: 0.2;
+        width: 30px;
+        position: absolute;
+        top: 13px;
+        right: 17px;
+        z-index: 9999; }
+    .MobileMenu span {
+        background: #fff;
+        display: inline-block;
+        height: 2px;
+        width: 100%; }
+    .Menu {
+        width: 100%; }
+    .Menu ul {
+        background: #000;
+        display: none;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 51px;
+        width: 100%;
+        z-index: 999;
+        opacity: .7; }
+    .Menu ul li {
+        cursor: pointer;
+        display: block;
+        padding: 14px 0; }
+    .Menu ul li a {
+        display: block; }
+    .Menu ul li:hover .Submenu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 150px;
+        visibility: visible;
+        opacity: 1; }
+    .mainSliderSec {
+        margin-top: 78px; }
+    .fixedHeader .logo a {
+        font-size: 22px;
+    }
+    .fixedHeader .socail{
+        padding: 0 0 10px;
+    }
+    .HomeSlide {
+        padding: 100px 0;
+    }
+    .HomeSlide .slideContent h1{
+        font-size: 36px;
+    }
+    .HomeSlide .slideContent p{
+        font-size: 21px;
+    }
+    .serviceContent{
+        padding: 15px 46px 36px; 
+        margin-top: 20px;
+    }
+    .serviceSec{
+        padding: 40px 0;
+    }
+    .industrySec{
+        height: 100%;
+    }
+    .industryTitle h2{
+        font-size: 27px;
+    }
+    .industryTitle p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .ourWork .mainWork{
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    .col-lg-9.paddingLeft20 {
+        padding-left: 0;
+    }
+    .ourWork .mainWork::before{
+        display: none;
+    }
+    .ourWork{
+        padding-bottom: 10px;
+    }
+    .DiscusBtnCon h2{
+        font-size: 27px;
+    }
+    .DiscusBtnCon .DiscusBTn {
+        display: block;
+        float: left;
+        font-size: 17px;
+        font-weight: 600;
+        height: 52px;
+        margin-left: 16%;
+        margin-top: 8px;
+        padding: 13px 20px;
+        width: 197px;
+    }
+    .DiscusBtnCon {
+        padding: 50px 20px 90px;
+    }
+    .DiscusButton {
+        padding: 20px 0;
+    }
+    .contactSec{
+        padding: 40px 0;
+    }
+    .inName{
+        width: 100%;
+    }
+    .emailName {
+        margin-left: 0;
+        width: 100%;
+    }
+    .logo.FLogo > a {
+        font-size: 29px;
+    }
+    .FSerMenu a{
+        display: inline-block;
+    }
+    .FserGroup{
+        width: 60%;
+    }
+    .footerIcon.text-right {
+        padding: 10px 0 0;
+        text-align: left;
+    }
+    .absingleBlog img {
+        width: 70%;
+    }
+    .disNone{
+        display: none !important;
+    }
+    .disNone767{
+        display: none !important;
+    }
+    .TabMenu {
+        display: none;
+    }
+    .TabProgress {
+        display: none;
+    }
+    .DesignTab {
+        padding: 17px 0;
+    }
+    .PanelLeft > h2 {
+        font-size: 20px;
+    }
+    .PanelRight p {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .DesignHead h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .DesignHead {
+        padding: 14px 0;
+    }
+    .DesignHead p {
+        font-size: 18px;
+        text-align: left;
+    }
+    .DesignSliderCon h2 {
+        color: #0fa2da;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    .DesignSliderTwo {
+        margin-top: 139px;
+    }
+    .DesignArrowRightCarosul1::after {
+        display: none !important;
+    }
+    .DesignleftLeftCarosul1::after {
+        display: none !important;
+    }
+    .DesignSliderCon h2 {
+        font-size: 31px;
+    }
+    .DeSliderConImage img {
+        height: auto;
+        width: 50%;
+    }
+    .DesignSliderTwo {
+        display: none;
+
+    }
+    .DePSingUpBtn h2 {
+        color: #0078ae;
+        display: block;
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo{
+        padding-top: 30px;
+    }
+    .logo a{
+        font-size: 22px;
+    }
+    .logo P{
+        display: none;
+    }
+    .Menu.text-right {
+        text-align: left;
+    }
+    .Menu ul li a{
+        margin-left: 14px;
+    }
+    .fixedHeader .logo{
+        padding-top: 9px;
+    }
+    .fixedHeader .logo a{
+        font-size: 24px;
+    }
+    .Menu ul li{
+        padding: 42px 0;
+    }
+    .serviceContent{
+        margin-top: 20px;
+        width: 100%;
+        height: 419px;
+    }
+    .serviceSec{
+        padding: 40px 0;
+    }
+    .industrySec{
+        height: 100%;
+    }
+    .ourWork .mainWork::before{
+        bottom: 60px;
+    }
+    .ourWork .mainWork {
+        padding: 30px 0;
+    }
+    .col-lg-9.paddingLeft20 {
+        padding-left: 35px;
+    }
+    .ourWork{
+        padding-bottom: 0;
+    }
+    .DiscusBtnCon h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .DiscusBtnCon .DiscusBTn{
+        float: left;
+    }
+    .DiscusBtnCon{
+        padding-bottom: 100px;
+    }
+    .contactSec {
+        padding: 20px 0;
+    }
+    .inName{
+        width: 49%;
+    }
+    .emailName{
+        width: 49%;
+        margin-left: 10px;
+    }
+    .FLogo{
+        padding: 0;
+    }
+    .FLogo p{
+        display: block;
+    }
+    .SingleCountry h2 {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .disNone{
+        display: none !important;
+    }
+    .TabMenu ul li {
+        display: inline-block;
+        padding: 192px 0 0;
+        position: relative;
+        vertical-align: top;
+        width: 31%;
+        z-index: 2;
+    }
+    .DspanFirst strong {
+        height: 135px;
+        width: 136px;
+    }
+    .DspanFirst em {
+        height: 100px;
+        width: 100px;
+    }
+    .TabMenu ul li.active .DspanFirst em {
+        height: 125px;
+        width: 125px;
+    }
+    .TabMenu ul li.active .DspanFirst strong {
+        height: 160px;
+        width: 160px;
+    }
+    .PanelLeft > h2 {
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .DesignHead {
+        padding: 20px 0;
+    }
+    .DesignHead h2 {
+        font-size: 35px;
+        letter-spacing: 8px;
+    }
+    .DesignTab{
+        padding: 15px 0;
+    }
+    .HomeSlide {
+        padding: 83px 0;
+    }
+    .DesignSliderTwo {
+        margin-top: 132px;
+        border: none;
+    }
+    .DesignArrowRightCarosul1::after {
+        left: 0;
+        top: 0;
+    }
+    .DesignleftLeftCarosul1::after {
+        right: 0px;
+        top: 0;
+        width: 100%;
+    }
+    .DeSliderConImage img {
+        height: 100%;
+        width: auto;
+    }
+    .keyTechnologySec .keytechBtn ul li a {
+        background: #558b2f none repeat scroll 0 0;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 12px 7px;
+        text-decoration: none;
+        transition: all 0.3s ease 0s;
+    }
+    .folioImg:hover .OverBtn {
+        opacity: 1;
+        transform: translate(0px, 93px);
+        visibility: visible;
+    }
+    .fOverText {
+        top: 181px;
+    }
+    .fOverText.fOverText22 h2 {
+        font-size: 34px;
+    }
+    .fOverText > h2 {
+        font-size: 20px;
+    }
+    .fOverText.fOverText22 {
+        top: 166px;
+
+    }
+}
+@media (min-width: 800px) and (max-width: 1280px) {
+    .industrySec{
+        height: 100%;
+    }
+    .logo a {
+        color: #fff;
+        display: block;
+        font-family: Kaushan Script,cursive;
+        font-size: 27px;
+        padding-top: 7px;
+        transition: all 600ms ease 0s;
+    }
+    .logo P {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .inName {
+        width: 47%;
+    }
+    .DesignSliderTwo{
+        margin-top: 200px;
+        border: none;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+    .DiscusBtnCon h2 {
+        color: #0fa2da;
+        display: inline-block;
+        font-size: 33px;
+        font-weight: 700;
+    }
+    .DiscusBtnCon .DiscusBTn {
+        background: #88ba00 none repeat scroll 0 0;
+        border-radius: 9px;
+        color: #fff;
+        display: block;
+        float: right;
+        font-size: 17px;
+        font-weight: 700;
+        height: auto;
+        margin-left: 7px;
+        overflow: hidden;
+        padding: 15px 43px;
+        position: relative;
+        text-transform: uppercase;
+        width: 246px;
+        z-index: 999;
+    }
+}
